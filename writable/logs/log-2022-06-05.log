@@ -1,0 +1,9 @@
+CRITICAL - 2022-06-05 23:46:40 --> Invalid file: Mha/index.php
+#0 C:\xampp\htdocs\ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Mha/index.php')
+#1 C:\xampp\htdocs\ci4\system\Common.php(1089): CodeIgniter\View\View->render('Mha/index', Array, true)
+#2 C:\xampp\htdocs\ci4\app\Controllers\tes.php(9): view('Mha/index')
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(832): App\Controllers\tes->index()
+#4 C:\xampp\htdocs\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tes))
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
